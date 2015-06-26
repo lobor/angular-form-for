@@ -1935,12 +1935,12 @@ var formFor;
             };
             $scope.onFocus = function () {
                 if ($attributes.hasOwnProperty('focused')) {
-                    $scope.focused();
+                    //$scope.focused();
                 }
             };
             $scope.onBlur = function () {
                 if ($attributes.hasOwnProperty('blurred')) {
-                    $scope.blurred();
+                    //$scope.blurred();
                 }
             };
         };
